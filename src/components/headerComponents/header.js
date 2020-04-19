@@ -9,7 +9,7 @@ function Header() {
     <header>
         
         <div className="logo">
-            LOGO
+        <Link to="/">LOGO</Link>
         </div>
 
         <nav>
