@@ -19,7 +19,7 @@ function App() {
     <Router>
     <div className="App">
       <Header />
-        <Route exact path='/react-site' component={Homepage} />
+        <Route exact path='/react-site/' component={Homepage} />
         <Route exact path='/react-site/About' component={Aboutpage} />
         <Route exact path='/react-site/Contact' component={Contactpage} />
       <Footer />

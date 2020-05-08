@@ -9,19 +9,19 @@ function Header() {
     <header>
         
         <div className="logo">
-        <Link to="/">LOGO</Link>
+        <Link to="/react-site/">LOGO</Link>
         </div>
 
         <nav>
             <ul>
                 <li className="first">
-                  <Link to="/">Home</Link>
+                  <Link to="/react-site/">Home</Link>
                 </li>
                 <li>
-                  <Link to="/About">About</Link>
+                  <Link to="/react-site/About">About</Link>
                 </li>
                 <li className="last">
-                  <Link to="/Contact">Contact</Link>
+                  <Link to="/react-site/Contact">Contact</Link>
                 </li>
             </ul>
         </nav>
