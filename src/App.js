@@ -19,9 +19,9 @@ function App() {
     <Router>
     <div className="App">
       <Header />
-        <Route exact path='/' component={Homepage} />
-        <Route exact path='/About' component={Aboutpage} />
-        <Route exact path='/Contact' component={Contactpage} />
+        <Route exact path='/react-site' component={Homepage} />
+        <Route exact path='/react-site/About' component={Aboutpage} />
+        <Route exact path='/react-site/Contact' component={Contactpage} />
       <Footer />
     </div>
     </Router>
